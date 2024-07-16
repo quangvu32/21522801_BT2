@@ -14,18 +14,25 @@
                 <p>Welcome to our CMS system</p>
             </div>
             <form>
-                <label for="email">EMAIL</label>
-                <div class="input-container">
-                    <i class="fa fa-envelope icon"></i>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <label for="password">PASSWORD</label>
-                <div class="input-container">
-                    <i class="fa fa-key icon"></i>
-                    <input type="password" id="password" name="password" required>
+                <div class="email-container">
+                    <label for="email" style="color: #888;">EMAIL</label>
+                    <div class="input-container">
+                        <img src="./assets/mail.png" alt="mail" class="icon">
+                        <input type="email" id="email" name="email">
+                    </div>
+                </div>  
+                <div class="password-container">
+                    <label for="password" style="color: #888;">PASSWORD</label>
+                    <div class="input-container">
+                        <img src="./assets/search.png" alt="lock" class="icon">
+                        <input type="password" id="password" name="password">
+                    </div>
                 </div>
                 <button type="submit">LOGIN</button>
-                <p class="register">Don't have an account? <a href="#">REGISTER HERE</a></p>
+                <p class="register">
+                    Don't have an account? 
+                    <a href="#">REGISTER HERE</a>
+                </p>
             </form>
         </div>
     </div>

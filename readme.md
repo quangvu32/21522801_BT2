@@ -2,4 +2,4 @@
 - Họ tên: Nguyễn Quang Vũ
 - MSSV: 21522801
 - Results:
-<img src='./assets/mail.png'>
+<img src='./assets/result.jpg'>

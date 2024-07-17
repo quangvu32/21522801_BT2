@@ -112,3 +112,19 @@ button:hover {
 #password{
   background-color: #f1f1f1;
 }
+
+.email-container{
+  padding-bottom: 10px;
+}
+
+#email{
+  background-color: #f1f1f1;
+  
+}
+.password-container{
+  padding-bottom: 10px;
+}
+
+#password{
+  background-color: #f1f1f1;
+}
